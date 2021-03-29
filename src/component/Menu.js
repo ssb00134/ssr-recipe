@@ -1,16 +1,19 @@
-import React from "react";
-
+import React from 'react';
+import { Link } from 'react-router-dom';
 const Menu = () => {
   return (
-    <ui>
+    <ul>
       <li>
-        <link to="/red">Red</link>
+        <Link to="/red">Red</Link>
       </li>
       <li>
-        <link to="/blue">Blue</link>
+        <Link to="/blue">Blue</Link>
       </li>
-    </ui>
+      <li>
+        <Link to="/users">Users</Link>
+      </li>
+    </ul>
   );
 };
 
-export default componentName;
+export default Menu;
